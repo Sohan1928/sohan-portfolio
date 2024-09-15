@@ -6,10 +6,10 @@ import { GrGithub } from "react-icons/gr";
 
 const DownloadCv = () => {
   return (
-    <div className="items-center md:gap-8 md:flex">
+    <div className="items-center pb-10 md:gap-8 md:flex">
       <div className="flex justify-center">
         <a href="SR_resume.pdf" download="Sohanur_Rahman_CV.pdf">
-          <button className="flex items-center text-center gap-2 px-6 py-3 text-[#8750f7] bg-transparent border border-[#8750f7] rounded-full">
+          <button className="flex items-center text-center gap-2 px-6 py-3 text-[#8750f7] bg-transparent border border-[#8750f7] rounded-full hover:bg-gradient-to-r from-[#8577f3] to-[#4819a0] bg-[length:200%_200%] bg-right hover:bg-left transition-all duration-70000 ease-in-out hover:text-white">
             Resume
             <span className="text-xl">
               <HiOutlineDownload />
