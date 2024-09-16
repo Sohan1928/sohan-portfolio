@@ -3,6 +3,7 @@ import animation from "./animaion.json";
 import Lottie from "lottie-react";
 import meImage from "../../../assets/meImage.png";
 import DownloadCv from "./DownloadCv";
+import { TypewriterEffectSmoothDemo } from "./WebDeveloper";
 
 const Banner = () => {
   return (
@@ -12,8 +13,8 @@ const Banner = () => {
           <h1 className="text-2xl font-bold text-white md:text-4xl">
             I am Sohanur Rahman
           </h1>
-          <h2 className="text-4xl md:text-6xl font-bold text-transparent uppercase bg-gradient-to-r from-[#8577f3] via-[#8750f7] to-[#2a1454] bg-clip-text">
-            Web Developer
+          <h2 className="text-4xl uppercase md:text-6xl">
+            <TypewriterEffectSmoothDemo></TypewriterEffectSmoothDemo>
           </h2>
           <p className="">
             I break down complex user experinece problems to create integritiy

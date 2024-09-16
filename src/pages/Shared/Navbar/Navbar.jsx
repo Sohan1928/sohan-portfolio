@@ -18,8 +18,8 @@ const Navbar = () => {
         <img className="w-14" src="Add a heading.png" alt="logo" />
       </div>
       {/* Menu for Large Devices */}
-      <div className="hidden md:flex justify-center py-1.5 mx-auto rounded-full md:w-80 bg-[#050709] border border-[#757e91]">
-        <nav className="flex items-center justify-center space-x-4 text-lg font-semibold text-center">
+      <div className="hidden md:flex justify-center py-1.5 mx-auto rounded-full md:w-80 bg-[#050709] border border-[#8750f7]">
+        <nav className="flex items-center justify-center space-x-4 text-lg font-semibold text-center text-white">
           <NavLink to="/">Home</NavLink>
           <NavLink to="/project">Project</NavLink>
           <NavLink to="/about">About</NavLink>
