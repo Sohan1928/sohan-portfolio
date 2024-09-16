@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "course_name": "Honour's",
+    "title": "Running",
+    "college_name": "Uttara Anwara Model College & University",
+    "year": "2020-2025"
+  },
+  {
+    "id": 2,
+    "course_name": "HSC",
+    "title": "Finished",
+    "college_name": "Kaliganj College",
+    "year": "2017-2020"
+  },
+  {
+    "id": 3,
+    "course_name": "SSC",
+    "title": "Finished",
+    "college_name": "Kaliganj Pilot Model High School",
+    "year": "2017"
+  }
+]

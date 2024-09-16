@@ -12,10 +12,12 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex items-center justify-between px-8 pt-4 mx-auto text-center">
+    <div className="flex items-center justify-between px-8 pt-4 mx-auto text-center max-w-7xl">
       {/* Logo Section */}
       <div>
-        <img className="w-14" src="Add a heading.png" alt="logo" />
+        <Link to="/">
+          <img className="w-14" src="Add a heading.png" alt="logo" />
+        </Link>
       </div>
       {/* Menu for Large Devices */}
       <div className="hidden md:flex justify-center py-1.5 mx-auto rounded-full md:w-80 bg-[#050709] border border-[#8750f7]">
@@ -28,9 +30,11 @@ const Navbar = () => {
       </div>
       {/* Button Section */}
       <div>
-        <button className="py-3 text-xl text-white px-8 font-semibold rounded-full bg-gradient-to-r from-[#8577f3] via-[#8042fb] to-[#280d5a] hidden md:inline-block hover:bg-gradient-to-l bg-[length:200%_200%] bg-right hover:bg-left transition-all duration-1000 ease-in-out">
-          Hire Me!
-        </button>
+        <Link to="/contact">
+          <button className="py-3 text-xl text-white px-8 font-semibold rounded-full bg-gradient-to-r from-[#8577f3] via-[#8042fb] to-[#280d5a] hidden md:inline-block hover:bg-gradient-to-l bg-[length:200%_200%] bg-right hover:bg-left transition-all duration-1000 ease-in-out">
+            Hire Me!
+          </button>
+        </Link>
       </div>
       {/* Hamburger Icon for Small Devices */}
       <div className="md:hidden">
