@@ -65,7 +65,7 @@ const Contact = () => {
           drives business growth but also to establish long-term relationships
           built on trust and genuine care. Let’s create something remarkable
           together!
-          <BsFillPinAngleFill className="absolute top-0 items-center text-xl text-[#8042fb] -left-1 md:-left-6"></BsFillPinAngleFill>
+          <BsFillPinAngleFill className="absolute top-1 items-center text-xl text-[#8042fb] -left-1 md:-left-6"></BsFillPinAngleFill>
         </p>
 
         <form
@@ -144,9 +144,9 @@ const Contact = () => {
           <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
             <div className="p-6 text-center bg-white rounded-lg shadow-lg">
               <h2 className="mb-4 text-2xl font-bold">Message Sent!</h2>
-              <p className="mb-4">Your message was sent successfully.</p>
+              <p className="mb-4">Your message sent successfully.</p>
               <button
-                className="px-4 py-2 text-white bg-blue-500 rounded-lg hover:bg-blue-600"
+                className="px-4 py-2 text-white bg-[#8042fb] rounded-lg hover:bg-transparent hover:text-black font-medium hover:border border-[#7936ff]"
                 onClick={() => setIsModalVisible(false)}
               >
                 Close
