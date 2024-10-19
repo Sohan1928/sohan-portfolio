@@ -5,7 +5,7 @@ import Footer from "../pages/Shared/Footer/Footer";
 
 const Root = () => {
   return (
-    <div className="bg-[#0F0715] md:h-screen">
+    <div className="bg-[#0F0715]">
       <div className="jet-brains">
         <Navbar></Navbar>
         <Outlet></Outlet>

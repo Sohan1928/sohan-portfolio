@@ -30,7 +30,7 @@ export function ThreeDCardDemo() {
               as="a"
               href="https://hotel-haven-9f393.firebaseapp.com"
               target="__blank"
-              className="px-4 py-2 text-xs font-normal rounded-xl dark:text-white"
+              className="px-4 py-2 text-xs font-normal rounded-xl hover:underline dark:text-white"
             >
               See Project →
             </CardItem>
@@ -59,7 +59,7 @@ export function ThreeDCardDemo() {
               as="a"
               href="https://agencewave-ea348.firebaseapp.com"
               target="__blank"
-              className="px-4 py-2 text-xs font-normal rounded-xl dark:text-white"
+              className="px-4 py-2 text-xs font-normal rounded-xl hover:underline dark:text-white"
             >
               See Project →
             </CardItem>
@@ -88,7 +88,36 @@ export function ThreeDCardDemo() {
               as="a"
               href="https://techpulsesf.netlify.app"
               target="__blank"
-              className="px-4 py-2 text-xs font-normal rounded-xl dark:text-white"
+              className="px-4 py-2 text-xs font-normal rounded-xl hover:underline dark:text-white"
+            >
+              See Project →
+            </CardItem>
+          </div>
+        </CardBody>
+      </CardContainer>
+      {/* Image 4 */}
+      <CardContainer className="inter-var">
+        <CardBody className="relative group/card dark:hover:shadow-2xl dark:hover:shadow-[#7b3aff] bg-[#1e0d3e]  border-[#7b3aff] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
+          <CardItem
+            translateZ="50"
+            className="text-xl font-bold text-neutral-600 dark:text-white"
+          >
+            BD-Restaurant
+          </CardItem>
+          <CardItem translateZ="100" className="w-full mt-4">
+            <img
+              src="http://res.cloudinary.com/du0uabbwo/image/upload/v1727243233/xqgfiwe0irxqufelv0i7.png"
+              alt="thumbnail"
+              className="w-full md:object-cover md:h-60 rounded-xl group-hover/card:shadow-xl"
+            />
+          </CardItem>
+          <div className="flex items-center justify-between mt-4">
+            <CardItem
+              translateZ={20}
+              as="a"
+              href="https://bd-restaurant.vercel.app"
+              target="__blank"
+              className="px-4 py-2 text-xs font-normal rounded-xl hover:underline dark:text-white"
             >
               See Project →
             </CardItem>

@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex items-center justify-between px-8 pt-4 mx-auto text-center max-w-7xl">
+    <div className="sticky top-0 z-10 flex items-center justify-between px-8 pt-4 mx-auto text-center max-w-7xl">
       {/* Logo Section */}
       <div>
         <Link to="/">
