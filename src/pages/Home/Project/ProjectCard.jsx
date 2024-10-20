@@ -15,6 +15,35 @@ export function ThreeDCardDemo() {
             translateZ="50"
             className="text-xl font-bold text-neutral-600 dark:text-white"
           >
+            Sit Well
+          </CardItem>
+          <CardItem translateZ="100" className="w-full mt-4">
+            <img
+              src="http://res.cloudinary.com/du0uabbwo/image/upload/v1729404254/uznozc4rtrfzvmgffqqt.png"
+              alt="thumbnail"
+              className="w-full md:object-cover md:h-60 rounded-xl group-hover/card:shadow-xl"
+            />
+          </CardItem>
+          <div className="flex items-center justify-between mt-4">
+            <CardItem
+              translateZ={20}
+              as="a"
+              href="https://sit-well-93f9a.firebaseapp.com"
+              target="__blank"
+              className="px-4 py-2 text-xs font-normal rounded-xl hover:underline dark:text-white"
+            >
+              See Project →
+            </CardItem>
+          </div>
+        </CardBody>
+      </CardContainer>
+      {/* image 2 */}
+      <CardContainer className="inter-var">
+        <CardBody className="relative group/card dark:hover:shadow-2xl dark:hover:shadow-[#7b3aff] bg-[#1e0d3e]  border-[#7b3aff] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
+          <CardItem
+            translateZ="50"
+            className="text-xl font-bold text-neutral-600 dark:text-white"
+          >
             Hotel_Haven
           </CardItem>
           <CardItem translateZ="100" className="w-full mt-4">
@@ -36,8 +65,8 @@ export function ThreeDCardDemo() {
             </CardItem>
           </div>
         </CardBody>
-        {/* image 2 */}
       </CardContainer>
+      {/* image 3 */}
       <CardContainer className="inter-var">
         <CardBody className="relative group/card dark:hover:shadow-2xl dark:hover:shadow-[#7b3aff] bg-[#1e0d3e]  border-[#7b3aff] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
           <CardItem
@@ -65,8 +94,8 @@ export function ThreeDCardDemo() {
             </CardItem>
           </div>
         </CardBody>
-        {/* image3 */}
       </CardContainer>
+      {/* image 4 */}
       <CardContainer className="inter-var">
         <CardBody className="relative group/card dark:hover:shadow-2xl dark:hover:shadow-[#7b3aff] bg-[#1e0d3e]  border-[#7b3aff] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
           <CardItem
@@ -95,7 +124,7 @@ export function ThreeDCardDemo() {
           </div>
         </CardBody>
       </CardContainer>
-      {/* Image 4 */}
+      {/* Image 5 */}
       <CardContainer className="inter-var">
         <CardBody className="relative group/card dark:hover:shadow-2xl dark:hover:shadow-[#7b3aff] bg-[#1e0d3e]  border-[#7b3aff] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
           <CardItem
